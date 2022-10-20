@@ -1,11 +1,15 @@
 import './App.css';
+import Nav from '../navigation/Nav';
+import Header from '../header/Header';
+import Liste from '../Liste/Liste';
 
 function App() {
   return (
-    <main>
-      <div>pp</div>
-    </main>
-   
+   <div className='container'>
+     <Nav/> 
+     <Header/>
+     <Liste/>
+   </div>
   );
 }
 
